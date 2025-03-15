@@ -1,23 +1,23 @@
-import dynamic from "next/dynamic";
-import Seo from "../../../components/common/Seo";
-import AllApplicants from "../../../components/dashboard-pages/employers-dashboard/all-applicants";
+// import dynamic from "next/dynamic";
+// import Seo from "../../../components/common/Seo";
+// import AllApplicants from "../../../components/dashboard-pages/employers-dashboard/all-applicants";
 
-export const metadata = {
-  title: 'All Applicants || Superio - Job Borad React NextJS Template',
-  description:
-    'Superio - Job Borad React NextJS Template',
+// export const metadata = {
+//   title: 'All Applicants || Superio - Job Borad React NextJS Template',
+//   description:
+//     'Superio - Job Borad React NextJS Template',
   
-}
+// }
 
 
 
-const index = () => {
-  return (
-    <>
+// const index = () => {
+//   return (
+//     <>
 
-      <AllApplicants />
-    </>
-  );
-};
+//       <AllApplicants />
+//     </>
+//   );
+// };
 
-export default dynamic(() => Promise.resolve(index), { ssr: false });
+// export default dynamic(() => Promise.resolve(index), { ssr: false });

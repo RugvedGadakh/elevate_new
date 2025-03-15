@@ -1,23 +1,23 @@
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 
-import RegisterForm from "@/components/pages-menu/register";
+// import RegisterForm from "@/components/pages-menu/register";
 
-export const metadata = {
-  title: 'Register || Superio - Job Borad React NextJS Template',
-  description:
-    'Superio - Job Borad React NextJS Template',
+// export const metadata = {
+//   title: 'Register || Superio - Job Borad React NextJS Template',
+//   description:
+//     'Superio - Job Borad React NextJS Template',
   
-}
+// }
 
 
 
-const index = () => {
-  return (
-    <>
+// const index = () => {
+//   return (
+//     <>
       
-      <RegisterForm />
-    </>
-  );
-};
+//       <RegisterForm />
+//     </>
+//   );
+// };
 
-export default dynamic(() => Promise.resolve(index), { ssr: false });
+// export default dynamic(() => Promise.resolve(index), { ssr: false });

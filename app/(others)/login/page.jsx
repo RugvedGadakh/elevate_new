@@ -1,23 +1,23 @@
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 
-import LogIn from "@/components/pages-menu/login";
+// import LogIn from "@/components/pages-menu/login";
 
-export const metadata = {
-  title: 'Login || Superio - Job Borad React NextJS Template',
-  description:
-    'Superio - Job Borad React NextJS Template',
+// export const metadata = {
+//   title: 'Login || Superio - Job Borad React NextJS Template',
+//   description:
+//     'Superio - Job Borad React NextJS Template',
   
-}
+// }
 
 
 
-const index = () => {
-  return (
-    <>
+// const index = () => {
+//   return (
+//     <>
       
-      <LogIn />
-    </>
-  );
-};
+//       <LogIn />
+//     </>
+//   );
+// };
 
-export default dynamic(() => Promise.resolve(index), { ssr: false });
+// export default dynamic(() => Promise.resolve(index), { ssr: false });
